@@ -1,7 +1,7 @@
 <GuiXml>
     <Controls>
         <TopLevelControl name="PsijicFlashback" mouseEnabled="true" movable="true">
-            <Dimensions x="200" y="42" />
+            <Dimensions x="200" y="200" />
             <Anchor point="CENTER" />
 
             <OnUpdate>
@@ -14,7 +14,13 @@
 
             <Controls>
                 <Backdrop name="$(parent)BG" inherits="ZO_ThinBackdrop" />
-                <Label name="$(parent)Frame" font="ZoFontWindowTitle" color="CFDCBD" wrapMode="ELLIPSIS" verticalAlignment="CENTER" text="Counter: ">
+                <Label name="$(parent)Frame" font="ZoFontWindowTitle" color="CFDCBD" wrapMode="ELLIPSIS" verticalAlignment="TOP" text="Counter: ">
+                    <AnchorFill />
+                </Label>
+                <Label name="$(parent)Label2" font="ZoFontWindowTitle" color="CFDCBD" wrapMode="ELLIPSIS" verticalAlignment="CENTER" text="M: ">
+                    <AnchorFill />
+                </Label>
+                <Label name="$(parent)Label3" font="ZoFontWindowTitle" color="CFDCBD" wrapMode="ELLIPSIS" verticalAlignment="BOTTOM" text="S: ">
                     <AnchorFill />
                 </Label>
             </Controls>
