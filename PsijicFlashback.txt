@@ -1,0 +1,5 @@
+## Title: Psijic Flashback
+## APIVersion: 100024
+
+PsijicFlashback.lua
+PsijicFlashback.xml
